@@ -51,7 +51,7 @@ function createCar(speed,cxt,dom) {
                 j = 0,
                 cur = null,
                 old = null;
-            for(i = 0; i < o.hinder[0].length; i ++) {
+            for(; i < o.hinder[0].length; i ++) {
                 for(j = 0; j < 3; j ++) {
                     cur = o.hinder[j][i];
                     if (cur.hinder === 1) {
