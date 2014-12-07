@@ -96,7 +96,7 @@ function createCar(speed,cxt,dom) {
                 return;
             }
             o.scroll = o.scroll + 5; // 单位下滑速度
-            if(o.scroll % 300 == 0)
+            if(o.scroll % 300 === 0)
                 o.setHinder(); // 设置障碍物
             o.startCar();
         }, o.speed);
